@@ -1,0 +1,9 @@
+hideMetadata: true # do not show next attributes in document: _rid, _self, _etag, _attachments, _ts
+
+envs:
+  DEV:
+    uri: https://namespace-dev.documents.azure.com:443/
+    key: sas-key1==
+  QE:
+    uri: https://namespace-qe.documents.azure.com:443/
+    key: sas-key2==

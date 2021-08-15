@@ -1,0 +1,33 @@
+[
+  {
+    "status": "PENDING",
+    "user": {
+      "userType": "EMPLOYEE",
+      "userName": "SYSTEM"
+    }
+  },
+  {
+    "status": "CONFIRMED",
+    "confirmedQuantity": 2,
+    "user": {
+      "userType": "SYSTEM",
+      "userName": "NA"
+    }
+  },
+  {
+    "status": "SHIPPED",
+    "confirmedQuantity": 2,
+    "user": {
+      "userType": "SYSTEM",
+      "userName": "NA"
+    }
+  },
+  {
+    "status": "RECEIVED",
+    "confirmedQuantity": 2,
+    "user": {
+      "userType": "EMPLOYEE",
+      "userName": "123423"
+    }
+  }
+]

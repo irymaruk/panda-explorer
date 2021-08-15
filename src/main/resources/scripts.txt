@@ -1,0 +1,10 @@
+-- flatten array of products
+SELECT c.pagCode, p.drugClassFederal, p.productCode, p.upc, p.ndc, p.priority FROM Product as c JOIN p IN c.productMembers order by c.pagCode
+
+-- GROUP BY
+SELECT count(1) AS countProducts, c.supplierCode, c.consignmentIndicator
+FROM Catalog as c
+GROUP BY c.supplierCode, c.consignmentIndicator
+
+-- array contains
+SELECT * FROM Item as c where c.conditionCode='59377' and array_contains(c.secondaryConditions, {"value": "18276"}, true)

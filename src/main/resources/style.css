@@ -1,0 +1,29 @@
+.text {
+    -fx-font-family: 'Museo Slab 500';
+    -fx-font-size: 14px;
+}
+
+/*     edit    */
+
+.lineno {
+    -fx-background-color: #f0f0f0;
+}
+
+.paragraph-box:has-caret {
+    -fx-background-color: #f2f9fc;
+}
+
+
+/*     syntax highlighting  */
+
+.keyword {
+    -fx-fill: blue;
+}
+
+.comment {
+	-fx-fill: green;
+}
+
+.json-keys {
+	-fx-fill: firebrick;
+}
