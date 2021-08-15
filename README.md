@@ -2,6 +2,11 @@
 
 **Panda Explorer** is a JavaFX 8 application for SQL queries in Azure Cosmos DB.
 
+# Overview
+
+![](https://github.com/irymaruk/panda-explorer/blob/master/src/test/resources/PandaExplorer_074_overview.gif)
+
+
 ### Key features:
 
 - query data from the different collection/databases from the same window;
@@ -32,7 +37,3 @@ Oracle JRE/JDK 8 (required for JavaFx 8)
 2. Copy _panda-jar-with-dependencies.jar_ and _/config_ folder into one folder.
 3. Update _uir_ and _key_ in _config/config.yaml_
 4. Start application `java -jar panda-jar-with-dependencies.jar`
-
-# Overview
-
-![](https://github.com/irymaruk/panda-explorer/blob/master/src/test/resources/PandaExplorer_074_overview.gif)
