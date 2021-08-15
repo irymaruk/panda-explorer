@@ -32,4 +32,4 @@ Oracle JRE/JDK 8 (required for JavaFx 8)
 
 # Overview
 
-![]()
+![](https://github.com/irymaruk/panda-explorer/blob/master/src/test/resources/PandaExplorer_074_overview.gif)
